@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dines — Modern East African Kitchen</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#" class="brand">Dines<em>.</em></a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#visit">Visit</a>
+    </div>
+    <a href="#visit" class="book-btn">Reserve</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <span class="eyebrow"></span>
+    <h1>A table set with <i>warmth</i>,<br>plated with heritage.</h1>
+    <p>Dines brings East African flavor to a modern table — slow-cooked stews, open-fire grills, and a wine list chosen to match.</p>
+    <div class="hero-cta">
+      <a href="#visit" class="btn-primary">Reserve a table</a>
+      <a href="#menu" class="btn-ghost">View the menu</a>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-art"></div>
+      <div class="about-text">
+        <span class="eyebrow" style="color:var(--gold);">Our Story</span>
+        <h3>Rooted in home, refined for the table.</h3>
+        <p>Dines means "home" — and that's the idea. We take the dishes East African families have cooked for generations and give them room to shine: better cuts, slower fires, and a dining room built for lingering.</p>
+        <p>Every plate is built around what's in season at the market that morning, and every evening ends the way a good meal should — unhurried.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="menu" id="menu">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">The Menu</span>
+      <h2>A few of our favorites</h2>
+      <p>A short seasonal selection — the full menu changes with the market.</p>
+    </div>
+    <div class="menu-grid">
+      <div class="menu-cat">
+        <h3>Starters</h3>
+        <div class="menu-item"><div><div class="menu-item-name">Grilled Sukuma & Feta</div><div class="menu-item-desc">Charred collard greens, whipped feta, lemon oil</div></div><div class="menu-item-price">KES 650</div></div>
+        <div class="menu-item"><div><div class="menu-item-name">Tamarind Beef Skewers</div><div class="menu-item-desc">Charcoal-grilled, tamarind glaze, pickled onion</div></div><div class="menu-item-price">KES 800</div></div>
+        <div class="menu-item"><div><div class="menu-item-name">Coconut Corn Fritters</div><div class="menu-item-desc">Sweet corn, coconut, coriander yogurt</div></div><div class="menu-item-price">KES 550</div></div>
+      </div>
+      <div class="menu-cat">
+        <h3>Mains</h3>
+        <div class="menu-item"><div><div class="menu-item-name">Slow Nyama Choma</div><div class="menu-item-desc">12-hour roast goat, kachumbari, ugali</div></div><div class="menu-item-price">KES 1,850</div></div>
+        <div class="menu-item"><div><div class="menu-item-name">Coastal Coconut Fish</div><div class="menu-item-desc">Catch of the day, coconut curry, rice</div></div><div class="menu-item-price">KES 1,650</div></div>
+        <div class="menu-item"><div><div class="menu-item-name">Wood-Fired Vegetable Platter</div><div class="menu-item-desc">Seasonal roots, groundnut sauce, greens</div></div><div class="menu-item-price">KES 1,200</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="strip">
+  <div class="strip-panel"></div>
+  <div class="strip-panel"></div>
+  <div class="strip-panel"></div>
+  <div class="strip-panel"></div>
+</div>
+
+<section class="visit" id="visit">
+  <div class="wrap">
+    <div class="visit-grid">
+      <div>
+        <div class="visit-block"><h3>Hours</h3><p>Tuesday – Sunday</p><p>12:00 PM – 10:30 PM</p></div>
+        <div class="visit-block"><h3>Location</h3><p>14 Riverside Drive</p><p></p></div>
+        <div class="visit-block"><h3>Contact</h3><p>+254 700 000 000</p><p>hello@dinesrestaurant.co.ke</p></div>
+      </div>
+      <div>
+        <span class="eyebrow" style="color:var(--gold);">Reserve</span>
+        <h3 class="form-title">Book a table</h3>
+        <form id="reservation-form">
+          <div class="form-row">
+            <input type="text" placeholder="Full name" required>
+            <input type="tel" placeholder="Phone number" required>
+          </div>
+          <div class="form-row">
+            <input type="date" required>
+            <select required>
+              <option value="" disabled selected>Party size</option>
+              <option>2 guests</option>
+              <option>3 guests</option>
+              <option>4 guests</option>
+              <option>5+ guests</option>
+            </select>
+          </div>
+          <button type="submit" class="submit-btn">Confirm reservation</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <a href="#" class="brand">Dines<em>.</em></a>
+  <p>&copy; 2026 Dines Restaurant. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
